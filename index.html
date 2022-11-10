@@ -1,0 +1,279 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>vnSchool - Hệ thống quản lý trường học thông minh</title>
+    <base href="/">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="styles.f4e656903d8dfdb31cdb.bundle.css" rel="stylesheet">
+</head>
+
+<body ng-version="4.4.6">
+    <router-outlet></router-outlet>
+    <vns-dashboard _nghost-c2="">
+        <app-layout _ngcontent-c2="">
+            <div class="wrapper-main">
+                <app-header _nghost-c4="">
+                    <header _ngcontent-c4="" class="wrap-header">
+                        <div _ngcontent-c4="" class="header-container">
+                            <div _ngcontent-c4="" class="header-logo"> <a _ngcontent-c4="" class="logo" routerlink="/" tabindex="1" title="vns_school" href="/"> <img _ngcontent-c4="" src="/assets/images/logo_vnschool.jpg" title="Aventis"> </a> </div>
+                            <div _ngcontent-c4="" id="nav-collapse-toggle"> <i _ngcontent-c4="" class="fa fa-2x fa-angle-double-down"></i> </div>
+                            <div _ngcontent-c4="" class="nav-collapse">
+                                <div _ngcontent-c4="" class="header-menu">
+                                    <kiss-menu-header _ngcontent-c4="" tabindex="2" _nghost-c6="">
+                                        <div _ngcontent-c6="" id="kiss-menu-header">
+                                            <dx-menu _ngcontent-c6="" displayexpr="name" class="dx-widget dx-visibility-change-handler dx-collection dx-menu-base dx-menu" tabindex="0" aria-activedescendant="dx-ef84ad99-c372-c1be-d4be-4c97bbc04ce6" role="menubar">
+                                                <div class="dx-menu-horizontal">
+                                                    <ul class="dx-menu-items-container dx-menu-no-icons">
+                                                        <li class="dx-menu-item-wrapper">
+                                                            <div class="dx-item dx-menu-item dx-menu-item-has-text dx-menu-item-has-submenu" role="menuitem" tabindex="-1" aria-haspopup="true">
+                                                                <div class="dx-item-content dx-menu-item-content"><span class="dx-menu-item-text">Menü</span><span class="dx-menu-item-popout-container">
+                                                                        <div class="dx-menu-item-popout"></div>
+                                                                    </span></div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="dx-menu-item-wrapper">
+                                                            <div class="dx-item dx-menu-item dx-menu-item-has-text dx-menu-item-has-submenu" role="menuitem" tabindex="-1" aria-haspopup="true">
+                                                                <div class="dx-item-content dx-menu-item-content"><span class="dx-menu-item-text">Aktionen</span><span class="dx-menu-item-popout-container">
+                                                                        <div class="dx-menu-item-popout"></div>
+                                                                    </span></div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="dx-menu-item-wrapper">
+                                                            <div class="dx-item dx-menu-item dx-menu-item-has-text dx-menu-item-has-submenu" role="menuitem" tabindex="-1" aria-haspopup="true">
+                                                                <div class="dx-item-content dx-menu-item-content"><span class="dx-menu-item-text">Zuletzt geöffnet</span><span class="dx-menu-item-popout-container">
+                                                                        <div class="dx-menu-item-popout"></div>
+                                                                    </span></div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </dx-menu>
+                                        </div>
+                                    </kiss-menu-header>
+                                </div>
+                                <div _ngcontent-c4="" class="header-languageSelectorWrapper float-right">
+                                    <language-selector _ngcontent-c4="" _nghost-c7="">
+                                        <div _ngcontent-c7="" id="languageSelectorWrapper"> <button _ngcontent-c7="" class="language-selector-anchor" data-toggle="lang-dropdown"> en </button>
+                                            <!---->
+                                        </div>
+                                    </language-selector>
+                                </div>
+                                <div _ngcontent-c4="" class="header-profileBarWrapper float-right">
+                                    <profile-action-bar _ngcontent-c4="" _nghost-c8="">
+                                        <div _ngcontent-c8="" class="profileActionBar">
+                                            <div _ngcontent-c8="" class="profileActionBar-anchor"> <a class="profileActionBar-imgWrapper" href="https://coindataflow.com/de/aktie/ASML"> <img _ngcontent-c8="" class="cdf" alt="aktie asml" src="./assets/images/cdf.svg"> </a> <span _ngcontent-c8=""></span> <span _ngcontent-c8="" class="profileActionBar-logout">Logout</span> </div>
+                                        </div>
+                                    </profile-action-bar>
+                                </div>
+                                <div _ngcontent-c4="" class="header-search-box float-right">
+                                    <kiss-search-box _ngcontent-c4="" class="header-search" _nghost-c9="">
+                                        <div _ngcontent-c9="" id="searchBoxData">
+                                            <dx-select-box _ngcontent-c9="" displayexpr="Name" placeholder="Suchen..." valueexpr="ID" width="450px" class="dx-textbox dx-texteditor dx-texteditor-empty dx-dropdowneditor-button-visible dx-widget dx-dropdowneditor-field-clickable dx-dropdowneditor dx-selectbox" style="width: 450px;">
+                                                <div class="dx-dropdowneditor-input-wrapper dx-selectbox-container"><input type="hidden" value="">
+                                                    <div class="dx-texteditor-container"><input autocomplete="off" class="dx-texteditor-input" aria-haspopup="true" aria-autocomplete="list" type="text" spellcheck="false" tabindex="0" aria-expanded="false" role="combobox">
+                                                        <div data-dx_placeholder="Suchen..." class="dx-placeholder"></div>
+                                                        <div class="dx-texteditor-buttons-container">
+                                                            <div class="dx-dropdowneditor-button dx-button-normal dx-widget" role="button">
+                                                                <div _ngcontent-c9="" class="dx-template-wrapper dx-button-content"> <img _ngcontent-c9="" class="custom-icon" src="/assets/icon/search.png"> </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </dx-select-box>
+                                        </div>
+                                    </kiss-search-box>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                </app-header>
+                <div class="layout-content">
+                    <navigation _nghost-c5="">
+                        <div _ngcontent-c5="" class="sidebar">
+                            <div _ngcontent-c5="" class="sider-bar-panel-content">
+                                <div _ngcontent-c5="" class="sidebar-header">
+                                    <h3 _ngcontent-c5="">Dossier Menu</h3>
+                                </div>
+                                <div _ngcontent-c5="" class="sidebar-content">
+                                    <app-sidebar-menu _ngcontent-c5="" _nghost-c10="">
+                                        <div _ngcontent-c10="" class="sidebar-menu">
+                                            <div _ngcontent-c10="" class="sidebar-menu-container">
+                                                <dx-tree-view _ngcontent-c10="" datastructure="plain" displayexpr="name" focusstateenabled="false" height="auto" id="sidebar-menu-container" keyexpr="id" parentidexpr="parentId" selectionmode="single" width="100%" class="dx-widget dx-collection dx-treeview" tabindex="0" aria-activedescendant="dx-73de8798-56cf-12ec-bb46-5a8575b38bd2" role="tree" style="width: 100%; height: auto;">
+                                                    <div class="dx-scrollable dx-scrollable-customizable-scrollbars dx-scrollable-vertical dx-scrollable-simulated dx-visibility-change-handler">
+                                                        <div class="dx-scrollable-wrapper">
+                                                            <div class="dx-scrollable-container">
+                                                                <div class="dx-scrollable-content" style="left: 0px; top: 0px; transform: none;">
+                                                                    <ul class="dx-treeview-node-container" role="group">
+                                                                        <li class="dx-treeview-node dx-treeview-node-is-leaf" data-item-id="1" role="treeitem" aria-label="Phân quyền" aria-expanded="false" aria-level="1" aria-selected="false">
+                                                                            <div class="dx-item dx-treeview-item" aria-selected="false">
+                                                                                <div _ngcontent-c10="" class="dx-template-wrapper dx-item-content dx-treeview-item-content">
+                                                                                    <!----><a _ngcontent-c10="" class="not-actives"> <i _ngcontent-c10="" class="fa fa-dashboard"></i> <span _ngcontent-c10="">Phân quyền</span> </a>
+                                                                                    <!---->
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="dx-treeview-node" data-item-id="2" role="treeitem" aria-label="Quản lý nhân sự" aria-expanded="false" aria-level="1" aria-selected="false">
+                                                                            <div class="dx-item dx-treeview-item" aria-selected="false">
+                                                                                <div _ngcontent-c10="" class="dx-template-wrapper dx-item-content dx-treeview-item-content">
+                                                                                    <!----><a _ngcontent-c10="" class="not-actives"> <i _ngcontent-c10="" class="fa fa-dashboard"></i> <span _ngcontent-c10="">Quản lý nhân sự</span> </a>
+                                                                                    <!---->
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="dx-treeview-toggle-item-visibility"></div>
+                                                                        </li>
+                                                                        <li class="dx-treeview-node" data-item-id="3" role="treeitem" aria-label="Quản lý học sinh" aria-expanded="false" aria-level="1" aria-selected="false">
+                                                                            <div class="dx-item dx-treeview-item" aria-selected="false">
+                                                                                <div _ngcontent-c10="" class="dx-template-wrapper dx-item-content dx-treeview-item-content">
+                                                                                    <!----><a _ngcontent-c10="" class="not-actives"> <i _ngcontent-c10="" class="fa fa-users"></i> <span _ngcontent-c10="">Quản lý học sinh</span> </a>
+                                                                                    <!---->
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="dx-treeview-toggle-item-visibility"></div>
+                                                                        </li>
+                                                                        <li class="dx-treeview-node" data-item-id="4" role="treeitem" aria-label="Quản lý môn học và điểm" aria-expanded="false" aria-level="1" aria-selected="false">
+                                                                            <div class="dx-item dx-treeview-item" aria-selected="false">
+                                                                                <div _ngcontent-c10="" class="dx-template-wrapper dx-item-content dx-treeview-item-content">
+                                                                                    <!----><a _ngcontent-c10="" class="not-actives"> <i _ngcontent-c10="" class="fa fa-cog"></i> <span _ngcontent-c10="">Quản lý môn học và điểm</span> </a>
+                                                                                    <!---->
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="dx-treeview-toggle-item-visibility"></div>
+                                                                        </li>
+                                                                        <li class="dx-treeview-node" data-item-id="5" role="treeitem" aria-label="Theo dõi chất lượng h/s" aria-expanded="false" aria-level="1" aria-selected="false">
+                                                                            <div class="dx-item dx-treeview-item" aria-selected="false">
+                                                                                <div _ngcontent-c10="" class="dx-template-wrapper dx-item-content dx-treeview-item-content">
+                                                                                    <!----><a _ngcontent-c10="" class="not-actives"> <i _ngcontent-c10="" class="fa fa-cog"></i> <span _ngcontent-c10="">Theo dõi chất lượng h/s</span> </a>
+                                                                                    <!---->
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="dx-treeview-toggle-item-visibility"></div>
+                                                                        </li>
+                                                                        <li class="dx-treeview-node" data-item-id="6" role="treeitem" aria-label="Thống kê báo cáo" aria-expanded="false" aria-level="1" aria-selected="false">
+                                                                            <div class="dx-item dx-treeview-item" aria-selected="false">
+                                                                                <div _ngcontent-c10="" class="dx-template-wrapper dx-item-content dx-treeview-item-content">
+                                                                                    <!----><a _ngcontent-c10="" class="not-actives"> <i _ngcontent-c10="" class="fa fa-cog"></i> <span _ngcontent-c10="">Thống kê báo cáo</span> </a>
+                                                                                    <!---->
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="dx-treeview-toggle-item-visibility"></div>
+                                                                        </li>
+                                                                        <li class="dx-treeview-node" data-item-id="7" role="treeitem" aria-label="Quản lý tin nhắn" aria-expanded="false" aria-level="1" aria-selected="false">
+                                                                            <div class="dx-item dx-treeview-item" aria-selected="false">
+                                                                                <div _ngcontent-c10="" class="dx-template-wrapper dx-item-content dx-treeview-item-content">
+                                                                                    <!----><a _ngcontent-c10="" class="not-actives"> <i _ngcontent-c10="" class="fa fa-cog"></i> <span _ngcontent-c10="">Quản lý tin nhắn</span> </a>
+                                                                                    <!---->
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="dx-treeview-toggle-item-visibility"></div>
+                                                                        </li>
+                                                                        <li class="dx-treeview-node" data-item-id="8" role="treeitem" aria-label="Thông tin phản hồi" aria-expanded="false" aria-level="1" aria-selected="false">
+                                                                            <div class="dx-item dx-treeview-item" aria-selected="false">
+                                                                                <div _ngcontent-c10="" class="dx-template-wrapper dx-item-content dx-treeview-item-content">
+                                                                                    <!----><a _ngcontent-c10="" class="not-actives"> <i _ngcontent-c10="" class="fa fa-cog"></i> <span _ngcontent-c10="">Thông tin phản hồi</span> </a>
+                                                                                    <!---->
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="dx-treeview-toggle-item-visibility"></div>
+                                                                        </li>
+                                                                        <li class="dx-treeview-node" data-item-id="9" role="treeitem" aria-label="Quản lý kì thi" aria-expanded="false" aria-level="1" aria-selected="false">
+                                                                            <div class="dx-item dx-treeview-item" aria-selected="false">
+                                                                                <div _ngcontent-c10="" class="dx-template-wrapper dx-item-content dx-treeview-item-content">
+                                                                                    <!----><a _ngcontent-c10="" class="not-actives"> <i _ngcontent-c10="" class="fa fa-cog"></i> <span _ngcontent-c10="">Quản lý kì thi</span> </a>
+                                                                                    <!---->
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="dx-treeview-toggle-item-visibility"></div>
+                                                                        </li>
+                                                                        <li class="dx-treeview-node" data-item-id="10" role="treeitem" aria-label="Quản lý năm học" aria-expanded="false" aria-level="1" aria-selected="false">
+                                                                            <div class="dx-item dx-treeview-item" aria-selected="false">
+                                                                                <div _ngcontent-c10="" class="dx-template-wrapper dx-item-content dx-treeview-item-content">
+                                                                                    <!----><a _ngcontent-c10="" class="not-actives"> <i _ngcontent-c10="" class="fa fa-cog"></i> <span _ngcontent-c10="">Quản lý năm học</span> </a>
+                                                                                    <!---->
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="dx-treeview-toggle-item-visibility"></div>
+                                                                        </li>
+                                                                        <li class="dx-treeview-node" data-item-id="11" role="treeitem" aria-label="Quản lý tài khoản" aria-expanded="false" aria-level="1" aria-selected="false">
+                                                                            <div class="dx-item dx-treeview-item" aria-selected="false">
+                                                                                <div _ngcontent-c10="" class="dx-template-wrapper dx-item-content dx-treeview-item-content">
+                                                                                    <!----><a _ngcontent-c10="" class="not-actives"> <i _ngcontent-c10="" class="fa fa-cog"></i> <span _ngcontent-c10="">Quản lý tài khoản</span> </a>
+                                                                                    <!---->
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="dx-treeview-toggle-item-visibility"></div>
+                                                                        </li>
+                                                                        <li class="dx-treeview-node" data-item-id="12" role="treeitem" aria-label="Lịch sử hoạt động" aria-expanded="false" aria-level="1" aria-selected="false">
+                                                                            <div class="dx-item dx-treeview-item" aria-selected="false">
+                                                                                <div _ngcontent-c10="" class="dx-template-wrapper dx-item-content dx-treeview-item-content">
+                                                                                    <!----><a _ngcontent-c10="" class="not-actives"> <i _ngcontent-c10="" class="fa fa-cog"></i> <span _ngcontent-c10="">Lịch sử hoạt động</span> </a>
+                                                                                    <!---->
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="dx-treeview-toggle-item-visibility"></div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="dx-scrollable-scrollbar dx-widget dx-scrollbar-vertical dx-scrollbar-hoverable" style="display: none;">
+                                                                    <div class="dx-scrollable-scroll dx-state-invisible" style="height: 384px; transform: translate(0px, 0px);">
+                                                                        <div class="dx-scrollable-scroll-content"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </dx-tree-view>
+                                            </div>
+                                        </div>
+                                    </app-sidebar-menu>
+                                </div>
+                            </div>
+                            <div _ngcontent-c5="" class="sider-bar-panel-hidden">
+                                <div _ngcontent-c5="" class="sidebar-header"> <i _ngcontent-c5="" class="fa fa-bars"></i> </div>
+                                <div _ngcontent-c5="" class="sidebar-content">
+                                    <p _ngcontent-c5=""> Dossier Menu </p>
+                                </div>
+                            </div>
+                        </div>
+                    </navigation>
+                    <section id="wrapper-content">
+                        <section _ngcontent-c2="">
+                            <app-navbars _ngcontent-c2="" _nghost-c3="">
+                                <section _ngcontent-c3="" id="app-navbar">
+                                    <div _ngcontent-c3="" id="navbars-wrapper">
+                                        <!---->
+                                        <h3 _ngcontent-c3="">vnSchool - Hệ thống quản lý trường học thông minh</h3>
+                                        <div _ngcontent-c3="" class="tool-bars"> </div>
+                                    </div>
+                                </section>
+                            </app-navbars>
+                            <page-content _ngcontent-c2="">
+                                <div class="page-content">
+                                    <div _ngcontent-c2="" header="">
+                                        <h1 _ngcontent-c2="">vnSchool - Hệ thống quản lý trường học thông minh</h1>
+                                    </div>
+                                    <div class="inner">
+                                        <div class="full-height ms-Viewport">
+                                            <div _ngcontent-c2="" body="">
+                                                <div _ngcontent-c2="">dashboard</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </page-content>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </app-layout>
+    </vns-dashboard>
+    <simple-notifications>
+        <div class="simple-notification-wrapper top right">
+            <!---->
+        </div>
+    </simple-notifications>
+</body>
+
+</html>
